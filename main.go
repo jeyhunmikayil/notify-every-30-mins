@@ -9,7 +9,6 @@ import (
 func main() {
 
 	for {
-
 		// Assign duration to wait for
 		duration := time.Duration(30) * time.Minute
 
@@ -23,7 +22,5 @@ func main() {
 		if err != nil {
 			panic(err)
 		}
-
 	}
-
 }
